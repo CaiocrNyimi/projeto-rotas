@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
-import { View, Text, Button, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { RootStackParamList } from "../navigation/RootNavigator";
 
 type ProfileScreenNavigationProp = NativeStackNavigationProp< RootStackParamList, "Profile">;
